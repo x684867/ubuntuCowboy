@@ -1,0 +1,23 @@
+ubuntuElixir
+------------
+
+Objectives:
+    (1) To establish a uniform docker base image for Elixir based on the Ubuntu operating system from which others can develop Elixir projects for rapid deployment as Docker containers.
+
+    (2) This docker base image is only an elixir installation.
+
+
+Usage:
+    To use this image:
+
+        (1) Create a blank project repository.
+        (2) Create a blank text file named "Dockerfile" within this repository.
+        (3) Within the Dockerfile, add the following clause: 
+
+                FROM x684867/ubuntuElixir
+
+            This line will allow the project to be build from the 
+            base image while allowing the developer to customize the
+            environment and add source code.
+
+<further documentation needed.>
